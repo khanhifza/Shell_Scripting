@@ -13,5 +13,11 @@ echo "Lower case is-----${myVar,,}"
 
 #To replace a string
 
-echo " New sentence is replace${myVar/World/Buddy}"
+myrep=${myVar/Buddy/World}
+
+echo " New sentence is $myrep"
+
+#to slice a string
+
+echo " after slice ${myVar:5:5}"
 
